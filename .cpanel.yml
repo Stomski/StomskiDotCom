@@ -2,6 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/example/public_html/
-    - npm install --prefix /path/to/your/application
-    - npm run build --prefix /path/to/your/application
-    - /bin/cp -R /path/to/your/application/build/* $DEPLOYPATH
+    - npm install --prefix stomskidotcomofficial
+    - npm run build --prefix stomskidotcomofficial
+    - /bin/cp -R stomskidotcomofficial/build/* $DEPLOYPATH
