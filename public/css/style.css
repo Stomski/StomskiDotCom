@@ -208,7 +208,8 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/introbg1.jpg) top right no-repeat;
+  background: url(https://flightbook1may2024.s3.us-east-2.amazonaws.com/introbg1.jpeg)
+    top right no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
