@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "Hello",
+    "title": "Welcome!!",
     "paragraph": "Thank you for visiting Stomski dot com! This site (for the time being) is dedicated to displaying and facilitating Bobby Stomski web development services, please find out more below!"
   },
   "About": {
@@ -152,12 +152,12 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
+    "address": "Boulder, Co",
     "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "email": "Bobby@Stomski.com",
+    "linkdin": "linkedin.com/in/bobbystomski",
+    "github": "github.com/Stomski",
+    "youtube": "actually no"
   },
   "Features": [
     {
