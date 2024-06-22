@@ -158,7 +158,7 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>sommmmmmmeeeeee footer type thing</p>
+          <p>thank you for visiting :)</p>
         </div>
       </div>
     </div>
