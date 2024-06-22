@@ -33,3 +33,18 @@
     padding-bottom: 6px;
   }
 }
+@media screen and (max-width: 554px) {
+  .intro h1 {
+    font-size: 10vw; /* Adjust this value as needed */
+  }
+  .navbar-toggle {
+    margin-top: 18px;
+  }
+
+  .navbar-header {
+    padding-bottom: 6px;
+    display: flex;
+    align-content: center;
+    height: fit-content;
+  }
+}
