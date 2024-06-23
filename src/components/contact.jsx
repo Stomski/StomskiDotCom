@@ -19,25 +19,36 @@ export const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
+    console.log(name, "name");
+    console.log(email, "email");
+    console.log(message, "message");
 
     {
       /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
     }
 
     emailjs
+      //GMAIL
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_s25e5sr",
+        "template_j2z3rdc",
         e.target,
-        "YOUR_PUBLIC_KEY"
+        "FBGg31ylhlAGWAcPS"
       )
+      //STOMSKI.COM
+      // .sendForm(
+      //   "service_wbnrqzd",
+      //   "template_htf1tkf",
+      //   e.target,
+      //   "Gp1E5kY6IXCDsvyQ8"
+      // )
       .then(
         (result) => {
           console.log(result.text);
           clearState();
         },
         (error) => {
-          console.log(error.text);
+          console.log(error);
         }
       );
   };
@@ -50,8 +61,8 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Get In Touch</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  Please fill out the form below to send Bobby an email, and he
+                  will get back to you as soon as possible.
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
