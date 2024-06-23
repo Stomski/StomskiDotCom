@@ -94,7 +94,7 @@
     {
       "icon": "fa fa-solid fa-fingerprint",
       "name": "Unique Experience",
-      "text": "I bring a very unique background and skillset to the tech sector, please reach out if there is anything I can do to assist your team in its goals!"
+      "text": "I bring a very unique background and skillset to the tech sector!"
     }
   ],
   "Testimonials": [
@@ -176,9 +176,15 @@
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
+<<<<<<< Updated upstream
       "icon": "fa fa-magic",
       "title": "Lorem ipsum",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+=======
+      "icon": "fa fa-solid fa-graduation-cap",
+      "title": "Lifelong Learning",
+      "text": "Committed to continuously evolving, while staying current with the latest technologies and industry trends."
+>>>>>>> Stashed changes
     }
   ]
 }

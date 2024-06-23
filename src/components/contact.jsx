@@ -9,34 +9,71 @@ const initialState = {
 };
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [message, setMessag = useState("");
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
-  const clearState = () => setState({ ...initialState });
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log("TOP OF SUBMIT");
     console.log(name, email, message);
 
-    {
-      /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
-    }
+    console.log(
+      "RIGHT BEFORE THE EMAIL IS ACTUALLY SENT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    );
+
+    //BELOW IS MY BOBBY@STOMSKI.com redirect info
+
+    // emailjs
+    //   .sendForm(
+    //     "service_wbnrqzd",
+    //     "template_htf1tkf",
+    //     e.target,
+    //     "5gqz82QYrcAHfVFoe"
+    //   )
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //       clearState();
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
+
+    // below is my gmail redirect
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_ptox3dg",
+        "template_j2z3rdc",
         e.target,
-        "YOUR_PUBLIC_KEY"
+        "p8mtqDdip6jFUhusp"
       )
       .then(
         (result) => {
-          console.log(result.text);
-          clearState();
+          console.log(
+            "RESULT RETURNED< NO ERROR???????????????????????????????????????????????????????????????????????"
+          );
+
+          console.log(
+            result["text"],
+            "resultboxtext<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
+          );
+
+          setState(initialState);
         },
         (error) => {
+          console.log(
+            "ERRORS IN RESULTS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+          );
           console.log(error.text);
         }
       );
