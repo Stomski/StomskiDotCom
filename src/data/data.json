@@ -6,10 +6,10 @@
   "About": {
     "paragraph": "Blending a passion for technology with a background in teaching Brazilian Jiu-Jitsu has led me to an exciting career in software engineering. Mentoring martial arts students honed my skills in spatial thinking, communication, time management, and teamwork, all while shaping what would become a unique approach to analytical problem-solving in tech.",
     "Why": [
-      "Unique Analytical Problem-Solving",
-      "Collaborative Mentality",
+      "Excited and Collaborative Mentality",
       "Effective Communication",
-      "Full Stack Skillset"
+      "Full Stack Skillset",
+      "Unique Analytical Problem-Solving"
     ],
     "Why2": [
       "Effective Risk Assessment",
@@ -20,24 +20,24 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Babbl Messenger",
+      "largeImage": "https://babbl.onrender.com/",
+      "smallImage": "img/portfolio/01-small.gif"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
+      "title": "Babbl Messenger",
+      "largeImage": "https://babbl.onrender.com/",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
+      "title": "FreeFlightSite",
+      "largeImage": "https://thefreeflightsite.onrender.com/",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "FreeFlightSite",
+      "largeImage": "https://thefreeflightsite.onrender.com/",
+      "smallImage": "img/portfolio/04-small.gif"
     },
     {
       "title": "Project Title",
@@ -69,7 +69,7 @@
     {
       "icon": "fa fa-brands fa-js",
       "name": "Javascript",
-      "text": "Solid foundation in Javascript, exceptional data systems / algorithm abilities"
+      "text": "Solid foundation in Javascript, exceptional data systems / algorithm abilitiesy."
     },
     {
       "icon": "fa fa-brands fa-python",
@@ -83,7 +83,7 @@
     },
     {
       "icon": "fa fa-solid fa-arrows-split-up-and-left",
-      "name": "Agile Methodoligies",
+      "name": "Agile Methodologies",
       "text": "Experience in a fast pace team environment, simultaneously developing a diverse codebase."
     },
     {
@@ -173,11 +173,11 @@
     {
       "icon": "fa fa-regular fa-handshake",
       "title": "Proven Track Record",
-      "text": "Success in a wide variety of fields, including quickly delivering projects through effective teamwork and agile methodologies."
+      "text": "Success in a wide variety of fields, including quickly delivering projects through effective teamwork and agile methodologies.."
     },
     {
       "icon": "fa fa-solid fa-graduation-cap",
-      "title": "Continuously Learning",
+      "title": "Lifelong Learning",
       "text": "Committed to continuous improvement and staying up to date with the latest technologies and industry trends."
     }
   ]

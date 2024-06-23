@@ -6,11 +6,8 @@ export const Gallery = (props) => {
     <div id="portfolio" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
+          <h2>Project Gallery</h2>
+          <p>Click on an example below to visit that domain!</p>
         </div>
         <div className="row">
           <div className="portfolio-items">

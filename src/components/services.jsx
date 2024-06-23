@@ -7,8 +7,8 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Tech Stack</h2>
           <p>
-            Always looking to expand my capabilities! See my project gallery for
-            implimentations of the below technologies
+            Always looking to expand my capabilities! See the my project gallery
+            for implimentations of these technologies.
           </p>
         </div>
         <div id="tech-stack-cards-div" className="tech-stack-cards-div row">
