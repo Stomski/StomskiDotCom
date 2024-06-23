@@ -161,24 +161,24 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-solid fa-dragon",
+      "title": "Diverse Background",
+      "text": "Bringing a unique blend of technical expertise and broad life experiences to software engineering."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Well-Rounded Skills",
+      "text": "Proficient in various programming languages with a strong foundation in both frontend and backend development."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Team",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-regular fa-handshake",
+      "title": "Proven Track Record",
+      "text": "Success in a wide variety of fields, including quickly delivering projects through effective teamwork and agile methodologies."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-solid fa-graduation-cap",
+      "title": "Continuously Learning",
+      "text": "Committed to continuous improvement and staying up to date with the latest technologies and industry trends."
     }
   ]
 }
