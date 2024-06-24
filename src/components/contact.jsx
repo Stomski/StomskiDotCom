@@ -8,16 +8,19 @@ const initialState = {
   message: "",
 };
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
-  };
-  const clearState = () => setState({ ...initialState });
+  // const [{ name, email, message }, setState] = useState(initialState);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    setLoading(true);
+    setSuccess(null);
+
     console.log(name, email, message);
     console.log(name, "name");
     console.log(email, "email");
@@ -28,27 +31,37 @@ export const Contact = (props) => {
     }
 
     emailjs
-      //GMAIL
-      .sendForm(
-        "service_s25e5sr",
-        "template_j2z3rdc",
-        e.target,
-        "FBGg31ylhlAGWAcPS"
-      )
-      //STOMSKI.COM
+      //   //GMAIL
       // .sendForm(
-      //   "service_wbnrqzd",
-      //   "template_htf1tkf",
+      //   "service_s25e5sr",
+      //   "template_j2z3rdc",
       //   e.target,
-      //   "Gp1E5kY6IXCDsvyQ8"
+      //   "FBGg31ylhlAGWAcPS"
       // )
+      //STOMSKI.COM
+      .sendForm(
+        "service_wbnrqzd",
+        "template_htf1tkf",
+        e.target,
+        "Gp1E5kY6IXCDsvyQ8"
+      )
       .then(
         (result) => {
           console.log(result.text);
-          clearState();
+          console.log("EMAIL SUCCESSCULLY SENT");
+          console.log(result.text);
+          setSuccess(true);
+          setLoading(false);
+          setName("");
+          setEmail("");
+          setMessage("");
+          // clearState();
         },
         (error) => {
           console.log(error);
+          console.log(error.text);
+          setSuccess(false);
+          setLoading(false);
         }
       );
   };
@@ -76,7 +89,7 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Name"
                         required
-                        onChange={handleChange}
+                        onChange={(e) => setName(e.target.value)}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -90,7 +103,7 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Email"
                         required
-                        onChange={handleChange}
+                        onChange={(e) => setEmail(e.target.value)}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -104,7 +117,7 @@ export const Contact = (props) => {
                     rows="4"
                     placeholder="Message"
                     required
-                    onChange={handleChange}
+                    onChange={(e) => setMessage(e.target.value)}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
