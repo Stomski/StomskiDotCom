@@ -29,9 +29,7 @@ export const Contact = (props) => {
           setLoading(false);
           setName("");
           setEmail("");
-          setMessage(
-            "Thank you for your message! I will be in touch as soon as possible :)"
-          );
+          setMessage("Thank you for your message! I will be in touch.");
 
           console.log(
             "EMAIL SUCCESSFULLY SENT, then completed",
@@ -59,10 +57,7 @@ export const Contact = (props) => {
             <div className="row">
               <div className="section-title">
                 <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send Bobby an email, and he
-                  will get back to you as soon as possible.
-                </p>
+                <p>Please fill out the form below to send Bobby an email.</p>
               </div>
               <form name="sentMessage" onSubmit={handleSubmit}>
                 <div className="row">

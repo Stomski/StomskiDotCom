@@ -6,10 +6,10 @@
   "About": {
     "paragraph": "Blending a passion for technology with a background in teaching Brazilian Jiu-Jitsu has led me to an exciting career in software engineering. Mentoring martial arts students honed my skills in spatial thinking, communication, time management, and teamwork, all while shaping what would become a unique approach to analytical problem-solving in tech.",
     "Why": [
-      "Excited and Collaborative Mentality",
-      "Effective Communication",
       "Full Stack Skillset",
-      "Unique Analytical Problem-Solving"
+      "Excited and Collaborative Mentality",
+      "Unique Analytical Problem-Solving",
+      "Effective Communication"
     ],
     "Why2": [
       "Effective Risk Assessment",
@@ -69,7 +69,7 @@
     {
       "icon": "fa fa-brands fa-js",
       "name": "Javascript",
-      "text": "Solid foundation in Javascript, exceptional data systems / algorithm abilitiesy."
+      "text": "Solid foundation in Javascript, exceptional data systems / algorithm abilities."
     },
     {
       "icon": "fa fa-brands fa-python",
