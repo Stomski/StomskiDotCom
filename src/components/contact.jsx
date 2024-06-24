@@ -132,19 +132,12 @@ export const Contact = (props) => {
               <h3>Contact Info</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Address
+                  <i className="fa fa-map-marker"></i> Location
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
             </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-phone"></i> Phone
-                </span>{" "}
-                {props.data ? props.data.phone : "loading"}
-              </p>
-            </div>
+
             <div className="contact-item">
               <p>
                 <span>
@@ -159,18 +152,18 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
+                    <a href="https://www.linkedin.com/in/bobbystomski/">
+                      <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                    <a href="https://github.com/Stomski">
+                      <i className="fa fa-github"></i>
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                 </ul>
@@ -181,7 +174,7 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>thank you for visiting :)</p>
+          <p>Thank you for visiting. &copy; Stomski Web Development 2024</p>
         </div>
       </div>
     </div>
