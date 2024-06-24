@@ -2,13 +2,7 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
 
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-};
 export const Contact = (props) => {
-  // const [{ name, email, message }, setState] = useState(initialState);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -21,50 +15,42 @@ export const Contact = (props) => {
     setLoading(true);
     setSuccess(null);
 
-    console.log(name, email, message);
-    console.log(name, "name");
-    console.log(email, "email");
-    console.log(message, "message");
-
-    {
-      /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
-    }
-
     emailjs
-      //   //GMAIL
-      // .sendForm(
-      //   "service_s25e5sr",
-      //   "template_j2z3rdc",
-      //   e.target,
-      //   "FBGg31ylhlAGWAcPS"
-      // )
-      //STOMSKI.COM
       .sendForm(
-        "service_wbnrqzd",
-        "template_htf1tkf",
+        "service_s25e5sr",
+        "template_j2z3rdc",
         e.target,
-        "Gp1E5kY6IXCDsvyQ8"
+        "FBGg31ylhlAGWAcPS"
       )
       .then(
         (result) => {
-          console.log(result.text);
-          console.log("EMAIL SUCCESSCULLY SENT");
           console.log(result.text);
           setSuccess(true);
           setLoading(false);
           setName("");
           setEmail("");
-          setMessage("");
-          // clearState();
+          setMessage(
+            "Thank you for your message! I will be in touch as soon as possible :)"
+          );
+
+          console.log(
+            "EMAIL SUCCESSFULLY SENT, then completed",
+            name,
+            "<<<name",
+            email,
+            "email <<<<",
+            message,
+            "message<<<<<<<<<<<"
+          );
         },
         (error) => {
-          console.log(error);
           console.log(error.text);
           setSuccess(false);
           setLoading(false);
         }
       );
   };
+
   return (
     <div>
       <div id="contact">
@@ -78,7 +64,7 @@ export const Contact = (props) => {
                   will get back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form name="sentMessage" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -89,6 +75,7 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Name"
                         required
+                        value={name}
                         onChange={(e) => setName(e.target.value)}
                       />
                       <p className="help-block text-danger"></p>
@@ -103,6 +90,7 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Email"
                         required
+                        value={email}
                         onChange={(e) => setEmail(e.target.value)}
                       />
                       <p className="help-block text-danger"></p>
@@ -117,13 +105,24 @@ export const Contact = (props) => {
                     rows="4"
                     placeholder="Message"
                     required
+                    value={message}
                     onChange={(e) => setMessage(e.target.value)}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                <button
+                  type="submit"
+                  className={`btn btn-custom btn-lg ${
+                    loading ? "btn-loading" : success ? "btn-success" : ""
+                  }`}
+                  disabled={loading || success}
+                >
+                  {loading
+                    ? "In Progress"
+                    : success
+                    ? "Thank you for your response"
+                    : "Send Message"}
                 </button>
               </form>
             </div>
