@@ -12,7 +12,7 @@
       "Effective Communication"
     ],
     "Why2": [
-      "Effective Risk Assessment",
+      "Proven Risk Assessment",
       "Brazilian Jiu Jitsu Brown belt",
       "Licensed Pilot",
       "Red Cross Everyday Heroes Award Recipient "
@@ -152,7 +152,7 @@
     }
   ],
   "Contact": {
-    "address": "Boulder, Co",
+    "address": "Boulder, Colorado",
     "phone": "+1 123 456 1234",
     "email": "Bobby@Stomski.com",
     "linkdin": "linkedin.com/in/bobbystomski",
@@ -173,12 +173,12 @@
     {
       "icon": "fa fa-regular fa-handshake",
       "title": "Proven Track Record",
-      "text": "Success in a wide variety of fields, including quickly delivering projects through effective teamwork and agile methodologies.."
+      "text": "Success in a wide variety of fields, including quickly delivering projects through effective teamwork and agile methodologies."
     },
     {
       "icon": "fa fa-solid fa-graduation-cap",
       "title": "Lifelong Learning",
-      "text": "Committed to continuous improvement and staying up to date with the latest technologies and industry trends."
+      "text": "Committed to continuous evolution and staying up to date with the latest technologies and industry trends."
     }
   ]
 }

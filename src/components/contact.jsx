@@ -157,7 +157,7 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
+                    <a href="https://www.instagram.com/stomskiwebdev">
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
