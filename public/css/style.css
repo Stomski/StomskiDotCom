@@ -333,6 +333,26 @@ header .intro-text {
 #services h2 {
   color: #fff;
 }
+#tech-stack-cards-div.tech-stack-cards-div.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Adjust alignment as needed */
+  width: fit-content; /* Adjusts the container size to fit the content */
+}
+
+@media (max-width: 992px) and (min-width: 666px) {
+  .tech-stack-cards {
+    width: 33.33333333%;
+  }
+}
+@media (max-width: 666px) {
+  .tech-stack-cards {
+    width: 100%;
+    max-width: 300px; /* Optional: Set a max-width for the cards */
+    margin: 0 auto; /* Center the cards */
+  }
+}
+
 #services .section-title h2::after {
   position: absolute;
   content: "";
