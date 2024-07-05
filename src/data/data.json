@@ -22,47 +22,48 @@
     {
       "title": "Babbl Messenger",
       "largeImage": "https://babbl.onrender.com/",
-      "smallImage": "img/portfolio/01-small.gif"
+      "smallImage": "img/portfolio/babbl-welcome.gif"
     },
     {
       "title": "Babbl Messenger",
       "largeImage": "https://babbl.onrender.com/",
-      "smallImage": "img/portfolio/01-small.gif"
+      "smallImage": "img/portfolio/babbl-channl-create.gif"
+    },
+    {
+      "title": "Babbl Messenger",
+
+      "largeImage": "https://thefreeflightsite.onrender.com/",
+      "smallImage": "img/portfolio/babbl-chat.gif"
     },
     {
       "title": "FreeFlightSite",
       "largeImage": "https://thefreeflightsite.onrender.com/",
-      "smallImage": "img/portfolio/01-small.gif"
-    },
-    {
-      "title": "FreeFlightSite",
-      "largeImage": "https://thefreeflightsite.onrender.com/",
-      "smallImage": "img/portfolio/01-small.gif"
+      "smallImage": "img/portfolio/flightmap.gif"
     },
     {
       "title": "Project Title",
       "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/01-small.gif"
+      "smallImage": "img/portfolio/wireframing.gif"
     },
     {
       "title": "Project Title",
       "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/01-small.gif"
+      "smallImage": "img/portfolio/babbl-welcome.gif"
     },
     {
       "title": "Project Title",
       "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/01-small.gif"
+      "smallImage": "img/portfolio/wireframing.gif"
     },
     {
       "title": "Project Title",
       "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/01-small.gif"
+      "smallImage": "img/portfolio/babbl-welcome.gif"
     },
     {
       "title": "Project Title",
       "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/01-small.gif"
+      "smallImage": "img/portfolio/babbl-welcome.gif"
     }
   ],
   "Services": [
@@ -112,21 +113,6 @@
       "img": "img/testimonials/03.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
     }
   ],
   "Team": [

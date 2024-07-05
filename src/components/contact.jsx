@@ -156,11 +156,11 @@ export const Contact = (props) => {
                       <i className="fa fa-github"></i>
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="https://www.instagram.com/stomskiwebdev">
                       <i className="fa fa-instagram"></i>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
