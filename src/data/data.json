@@ -6,14 +6,14 @@
   "About": {
     "paragraph": "Blending a passion for technology with a background in teaching Brazilian Jiu-Jitsu has led me to an exciting career in software engineering. Mentoring martial arts students honed my skills in spatial thinking, communication, time management, and teamwork, all while shaping what would become a unique approach to analytical problem-solving in tech.",
     "Why": [
-      "Excited and Collaborative Mentality",
-      "Effective Communication",
       "Full Stack Skillset",
-      "Unique Analytical Problem-Solving"
+      "Excited and Collaborative Mentality",
+      "Unique Analytical Problem-Solving",
+      "Effective Communication"
     ],
     "Why2": [
-      "Effective Risk Assessment",
-      "Brown belt in Brazilian Jiu Jitsu",
+      "Proven Risk Assessment",
+      "Brazilian Jiu Jitsu Brown belt",
       "Licensed Pilot",
       "Red Cross Everyday Heroes Award Recipient "
     ]
@@ -22,54 +22,55 @@
     {
       "title": "Babbl Messenger",
       "largeImage": "https://babbl.onrender.com/",
-      "smallImage": "img/portfolio/01-small.gif"
+      "smallImage": "img/portfolio/babbl-welcome.gif"
     },
     {
       "title": "Babbl Messenger",
       "largeImage": "https://babbl.onrender.com/",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "smallImage": "img/portfolio/babbl-channl-create.gif"
+    },
+    {
+      "title": "Babbl Messenger",
+
+      "largeImage": "https://thefreeflightsite.onrender.com/",
+      "smallImage": "img/portfolio/babbl-chat.gif"
     },
     {
       "title": "FreeFlightSite",
       "largeImage": "https://thefreeflightsite.onrender.com/",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "FreeFlightSite",
-      "largeImage": "https://thefreeflightsite.onrender.com/",
-      "smallImage": "img/portfolio/04-small.gif"
+      "smallImage": "img/portfolio/flightmap.gif"
     },
     {
       "title": "Project Title",
       "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "smallImage": "img/portfolio/wireframing.gif"
     },
     {
       "title": "Project Title",
       "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "smallImage": "img/portfolio/babbl-welcome.gif"
     },
     {
       "title": "Project Title",
       "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "smallImage": "img/portfolio/wireframing.gif"
     },
     {
       "title": "Project Title",
       "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "smallImage": "img/portfolio/babbl-welcome.gif"
     },
     {
       "title": "Project Title",
       "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "smallImage": "img/portfolio/babbl-welcome.gif"
     }
   ],
   "Services": [
     {
       "icon": "fa fa-brands fa-js",
       "name": "Javascript",
-      "text": "Solid foundation in Javascript, exceptional data systems / algorithm abilitiesy."
+      "text": "Solid foundation in Javascript, exceptional data systems / algorithm abilities."
     },
     {
       "icon": "fa fa-brands fa-python",
@@ -112,21 +113,6 @@
       "img": "img/testimonials/03.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
     }
   ],
   "Team": [
@@ -152,7 +138,7 @@
     }
   ],
   "Contact": {
-    "address": "Boulder, Co",
+    "address": "Boulder, Colorado",
     "phone": "+1 123 456 1234",
     "email": "Bobby@Stomski.com",
     "linkdin": "linkedin.com/in/bobbystomski",
@@ -173,12 +159,12 @@
     {
       "icon": "fa fa-regular fa-handshake",
       "title": "Proven Track Record",
-      "text": "Success in a wide variety of fields, including quickly delivering projects through effective teamwork and agile methodologies.."
+      "text": "Success in a wide variety of fields, including quickly delivering projects through effective teamwork and agile methodologies."
     },
     {
       "icon": "fa fa-solid fa-graduation-cap",
       "title": "Lifelong Learning",
-      "text": "Committed to continuous improvement and staying up to date with the latest technologies and industry trends."
+      "text": "Committed to continuous evolution while staying up to date with the latest technologies and industry trends."
     }
   ]
 }

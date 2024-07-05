@@ -7,7 +7,7 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Tech Stack</h2>
           <p>
-            Always looking to expand my capabilities! See the my project gallery
+            Always looking to expand my capabilities! See the project gallery
             for implimentations of these technologies.
           </p>
         </div>

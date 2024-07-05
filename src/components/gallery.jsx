@@ -9,7 +9,7 @@ export const Gallery = (props) => {
           <h2>Project Gallery</h2>
           <p>Click on an example below to visit that domain!</p>
         </div>
-        <div className="row">
+        <div className="row project-gallery-div" id="project-gallery-div">
           <div className="portfolio-items">
             {props.data
               ? props.data.map((d, i) => (

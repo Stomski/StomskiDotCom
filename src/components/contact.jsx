@@ -2,45 +2,53 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
 
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-};
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
-  };
-  const clearState = () => setState({ ...initialState });
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
 
-    {
-      /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
-    }
+    setLoading(true);
+    setSuccess(null);
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_s25e5sr",
+        "template_j2z3rdc",
         e.target,
-        "YOUR_PUBLIC_KEY"
+        "FBGg31ylhlAGWAcPS"
       )
       .then(
         (result) => {
           console.log(result.text);
-          clearState();
+          setSuccess(true);
+          setLoading(false);
+          setName("");
+          setEmail("");
+          setMessage("Thank you for your message! I will be in touch.");
+
+          console.log(
+            "EMAIL SUCCESSFULLY SENT, then completed",
+            name,
+            "<<<name",
+            email,
+            "email <<<<",
+            message,
+            "message<<<<<<<<<<<"
+          );
         },
         (error) => {
           console.log(error.text);
+          setSuccess(false);
+          setLoading(false);
         }
       );
   };
+
   return (
     <div>
       <div id="contact">
@@ -49,12 +57,9 @@ export const Contact = (props) => {
             <div className="row">
               <div className="section-title">
                 <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
-                </p>
+                <p>Please fill out the form below to send Bobby an email.</p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form name="sentMessage" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -65,7 +70,8 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Name"
                         required
-                        onChange={handleChange}
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -79,7 +85,8 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Email"
                         required
-                        onChange={handleChange}
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -93,13 +100,24 @@ export const Contact = (props) => {
                     rows="4"
                     placeholder="Message"
                     required
-                    onChange={handleChange}
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                <button
+                  type="submit"
+                  className={`btn btn-custom btn-lg ${
+                    loading ? "btn-loading" : success ? "btn-success" : ""
+                  }`}
+                  disabled={loading || success}
+                >
+                  {loading
+                    ? "In Progress"
+                    : success
+                    ? "Thank you for your response"
+                    : "Send Message"}
                 </button>
               </form>
             </div>
@@ -109,19 +127,12 @@ export const Contact = (props) => {
               <h3>Contact Info</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Address
+                  <i className="fa fa-map-marker"></i> Location
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
             </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-phone"></i> Phone
-                </span>{" "}
-                {props.data ? props.data.phone : "loading"}
-              </p>
-            </div>
+
             <div className="contact-item">
               <p>
                 <span>
@@ -136,20 +147,20 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
+                    <a href="https://www.linkedin.com/in/bobbystomski/">
+                      <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                    <a href="https://github.com/Stomski">
+                      <i className="fa fa-github"></i>
                     </a>
                   </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                  {/* <li>
+                    <a href="https://www.instagram.com/stomskiwebdev">
+                      <i className="fa fa-instagram"></i>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -158,7 +169,7 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>thank you for visiting :)</p>
+          <p>Thank you for visiting. &copy; Stomski Web Development 2024</p>
         </div>
       </div>
     </div>
