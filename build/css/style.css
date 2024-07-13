@@ -647,8 +647,18 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
+@media (min-width: 769px) {
+  #about img {
+    margin-bottom: 10px;
+  }
+}
+
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+
+  #about-list-1 {
+    margin-bottom: 0px;
   }
 }

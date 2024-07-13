@@ -1,15 +1,11 @@
 /**
 
-so this is just to test some git shit, chuno?
-
-same deal, on friday night woooooot
-
-dev checking fuck
+well this is actually coming along pretty good
 
 
-so this is it again hmm?
+this is fucking siccccckkkk mice unnecessary
 
- make the garden green
+ok, start of monday
+start of tuesday
 
-
- */
+*/
