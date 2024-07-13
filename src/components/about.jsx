@@ -15,8 +15,11 @@ export const About = (props) => {
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
               <h3>What can I offer your team?</h3>
               <div className="list-style">
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
+                <div
+                  id="about-list"
+                  className="about-list-1 col-lg-6 col-sm-6 col-xs-12"
+                >
+                  <ul id="about-list-1">
                     {props.data
                       ? props.data.Why.map((d, i) => (
                           <li key={`${d}-${i}`}>{d}</li>
@@ -24,11 +27,14 @@ export const About = (props) => {
                       : "loading"}
                   </ul>
                 </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12">
+                <div
+                  id="about-list"
+                  className="about-list-2 col-lg-6 col-sm-6 col-xs-12"
+                >
                   <ul>
                     {props.data
                       ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
+                          <li key={`${d}-${i}`}>{d}</li>
                         ))
                       : "loading"}
                   </ul>
