@@ -31,39 +31,39 @@
     },
     {
       "title": "Babbl Messenger",
+      "largeImage": "https://babbl.onrender.com/",
 
-      "largeImage": "https://thefreeflightsite.onrender.com/",
       "smallImage": "img/portfolio/babbl-chat.gif"
     },
     {
-      "title": "FreeFlightSite",
+      "title": "FreeFlightSite, utilizing AWS and GoogleMaps",
       "largeImage": "https://thefreeflightsite.onrender.com/",
       "smallImage": "img/portfolio/flightmap.gif"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
+      "title": "UI Development Example",
+      "largeImage": "https://github.com/kimchicecream/babbl",
       "smallImage": "img/portfolio/wireframing.gif"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/babbl-welcome.gif"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/wireframing.gif"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/babbl-welcome.gif"
-    },
-    {
-      "title": "Project Title",
+      "title": "Licensed Paragliding Pilot",
       "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/babbl-welcome.gif"
+      "smallImage": "img/portfolio/paragliding.jpg"
+    },
+    {
+      "title": "Brazilian Jiu-Jitsu Brown Belt",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/jiujitsu.jpg"
+    },
+    {
+      "title": "Perforoming Multi-Instrumentalist",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/piano.jpg"
+    },
+    {
+      "title": "Visit My Git!!!",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/github.jpg"
     }
   ],
   "Services": [
@@ -100,19 +100,19 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Bobby is an outstanding developer with a unique approach to problem-solving. His background in teaching Brazilian Jiu-Jitsu translates into effective communication and teamwork skills.\"",
+      "name": "Emily Johnson"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Working with Bobby has been a pleasure. His ability to manage time and tackle complex projects under tight deadlines is impressive. His work on FreeFlightSite was particularly remarkable.\"",
+      "name": "Sarah Miller"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Bobby's passion for technology and his exceptional attitude make him a valuable asset to any team. His dedication to his work is evident in every project he undertakes.\"",
+      "name": "Michael Brown"
     }
   ],
   "Team": [
