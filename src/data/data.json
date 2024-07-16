@@ -46,6 +46,11 @@
       "smallImage": "img/portfolio/wireframing.gif"
     },
     {
+      "title": "Visit My Git!!!",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/github.jpg"
+    },
+    {
       "title": "Licensed Paragliding Pilot",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/paragliding.jpg"
@@ -59,11 +64,6 @@
       "title": "Performing Multi-Instrumentalist",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/piano.jpg"
-    },
-    {
-      "title": "Visit My Git!!!",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/github.jpg"
     }
   ],
   "Services": [
@@ -90,7 +90,7 @@
     {
       "icon": "fa fa-brands fa-react",
       "name": "React/Redux",
-      "text": "Diverse BOM and state management implimentation experience."
+      "text": "Diverse DOM and state management implimentation experience."
     },
     {
       "icon": "fa fa-solid fa-fingerprint",
