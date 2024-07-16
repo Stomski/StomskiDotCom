@@ -25,7 +25,7 @@
       "smallImage": "img/portfolio/babbl-welcome.gif"
     },
     {
-      "title": "Babbl Messenger",
+      "title": "Babbl, utilizing SocketIO",
       "largeImage": "https://babbl.onrender.com/",
       "smallImage": "img/portfolio/babbl-channl-create.gif"
     },
@@ -41,13 +41,13 @@
       "smallImage": "img/portfolio/flightmap.gif"
     },
     {
-      "title": "UI Development Example",
-      "largeImage": "https://github.com/kimchicecream/babbl",
+      "title": "UI Developmentin an Agile environment",
+      "largeImage": "https://github.com/kimchicecream/babbl/wiki/WireFraming",
       "smallImage": "img/portfolio/wireframing.gif"
     },
     {
       "title": "Visit My Git!!!",
-      "largeImage": "img/portfolio/09-large.jpg",
+      "largeImage": "https://github.com/Stomski",
       "smallImage": "img/portfolio/github.jpg"
     },
     {
