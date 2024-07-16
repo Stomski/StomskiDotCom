@@ -52,17 +52,17 @@
     },
     {
       "title": "Licensed Paragliding Pilot",
-      "largeImage": "img/portfolio/09-large.jpg",
+      "largeImage": "#contact",
       "smallImage": "img/portfolio/paragliding.jpg"
     },
     {
       "title": "Brazilian Jiu-Jitsu Brown Belt",
-      "largeImage": "img/portfolio/07-large.jpg",
+      "largeImage": "#contact",
       "smallImage": "img/portfolio/jiujitsu.jpg"
     },
     {
       "title": "Performing Multi-Instrumentalist",
-      "largeImage": "img/portfolio/08-large.jpg",
+      "largeImage": "#contact",
       "smallImage": "img/portfolio/piano.jpg"
     }
   ],
