@@ -41,7 +41,7 @@
       "smallImage": "img/portfolio/flightmap.gif"
     },
     {
-      "title": "UI Developmentin an Agile environment",
+      "title": "UI Development in an Agile environment",
       "largeImage": "https://github.com/kimchicecream/babbl/wiki/WireFraming",
       "smallImage": "img/portfolio/wireframing.gif"
     },
@@ -101,18 +101,18 @@
   "Testimonials": [
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Bobby is an outstanding developer with a unique approach to problem-solving. His background in teaching Brazilian Jiu-Jitsu translates into effective communication and teamwork skills.\"",
-      "name": "Emily Johnson"
+      "text": "Among our bootcamp classmates, Bobby was a standout. His grasp of the material was unparalleled, and despite the extreme workload he was always ready to assist others, consistantly providing clear and comprehensive explanations when his peers needed them.",
+      "name": "Emily Johnson (Peer)"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Working with Bobby has been a pleasure. His ability to manage time and tackle complex projects under tight deadlines is impressive. His work on FreeFlightSite was particularly remarkable.\"",
-      "name": "Sarah Miller"
+      "text": "Bobby's contributions to our community engagement efforts were unparalleled. The training materials he created are a testament to his dedication and expertise, and they remain integral to our operations.",
+      "name": "Sarah Miller (Former boss)"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Bobby's passion for technology and his exceptional attitude make him a valuable asset to any team. His dedication to his work is evident in every project he undertakes.\"",
-      "name": "Michael Brown"
+      "text": "Bobby is a trusted and upstanding member of our local community. Not only has he been a coach to myself, my wife, and our three daughters throughout our Jiu Jitsu journeys, he has also house-sat and animal-sat for us. His dedication and reliability are unmatched.",
+      "name": "Michael Brown (Former student)"
     }
   ],
   "Team": [
