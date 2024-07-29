@@ -102,17 +102,20 @@
     {
       "img": "img/testimonials/04.jpg",
       "text": "Among our bootcamp classmates, Bobby was a standout. His grasp of the material was unparalleled, and despite the extreme workload he was always ready to assist others, consistantly providing clear and comprehensive explanations when his peers needed them.",
-      "name": "Emily Johnson (Fellow Engineer)"
+      "name": "Emily Johnson",
+      "name2": "(Fellow Engineer)"
     },
     {
       "img": "img/testimonials/06.jpg",
       "text": "Bobby's contributions to our community engagement efforts were always exceptional, when he was available to work an event the entire team felt the difference. The training materials he created are a testament to his dedication and expertise, and they remain integral to our operations.",
-      "name": "Sarah Miller (Former Supervisor)"
+      "name": "Sarah Miller",
+      "name2": "(Former Supervisor)"
     },
     {
       "img": "img/testimonials/03.jpg",
       "text": "Bobby is a trusted and upstanding member of our local community. Not only has he been a coach to myself, my wife, and our three daughters throughout our Jiu Jitsu journeys, he has also house-sat and animal-sat for us. His dedication and reliability are unmatched.",
-      "name": "Michael Brown (Former student)"
+      "name": "Michael Brown",
+      "name2": "(Former Student)"
     }
   ],
   "Team": [

@@ -481,10 +481,31 @@ header .intro-text {
   font-style: italic;
 }
 .testimonial-meta {
+  display: flex;
+  justify-content: flex-end;
   margin-top: 10px;
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 800;
   color: #666;
+}
+.testimonial-meta-2 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  font-weight: 400;
+  color: #666;
+}
+@media (max-width: 992px) {
+  .testimonial-meta {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .testimonial-meta-2 {
+    display: flex;
+    justify-content: flex-end;
+
+    color: #666;
+  }
 }
 /* Team Section */
 #team {
