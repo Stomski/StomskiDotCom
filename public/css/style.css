@@ -395,7 +395,6 @@ header .intro-text {
 @media (min-width: 480px) and (max-width: 780px) {
   #project-gallery-div.project-gallery-div.row {
     align-items: center; /* Center vertically */
-    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
   }
 }
 
@@ -646,6 +645,12 @@ label {
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
 }
+@media (min-width: 769px) and (max-width: 780px) {
+  .project-gallery-div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
 
 @media (min-width: 769px) {
   #about img {
@@ -661,4 +666,12 @@ label {
   #about-list-1 {
     margin-bottom: 0px;
   }
+}
+
+#other-projects-title-div {
+  margin-top: 35px;
+}
+#other-projects-title {
+  margin-top: 70px;
+  font-size: 25px;
 }

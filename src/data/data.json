@@ -25,45 +25,45 @@
       "smallImage": "img/portfolio/babbl-welcome.gif"
     },
     {
-      "title": "Babbl Messenger",
+      "title": "Babbl, utilizing SocketIO",
       "largeImage": "https://babbl.onrender.com/",
       "smallImage": "img/portfolio/babbl-channl-create.gif"
     },
     {
       "title": "Babbl Messenger",
+      "largeImage": "https://babbl.onrender.com/",
 
-      "largeImage": "https://thefreeflightsite.onrender.com/",
       "smallImage": "img/portfolio/babbl-chat.gif"
     },
     {
-      "title": "FreeFlightSite",
+      "title": "FreeFlightSite, utilizing AWS and GoogleMaps",
       "largeImage": "https://thefreeflightsite.onrender.com/",
       "smallImage": "img/portfolio/flightmap.gif"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
+      "title": "UI Development in an Agile environment",
+      "largeImage": "https://github.com/kimchicecream/babbl/wiki/WireFraming",
       "smallImage": "img/portfolio/wireframing.gif"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/babbl-welcome.gif"
+      "title": "Visit My Git!!!",
+      "largeImage": "https://github.com/Stomski",
+      "smallImage": "img/portfolio/github.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/wireframing.gif"
+      "title": "Licensed Paragliding Pilot",
+      "largeImage": "#contact",
+      "smallImage": "img/portfolio/paragliding.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/babbl-welcome.gif"
+      "title": "Brazilian Jiu-Jitsu Brown Belt",
+      "largeImage": "#contact",
+      "smallImage": "img/portfolio/jiujitsu.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/babbl-welcome.gif"
+      "title": "Performing Multi-Instrumentalist",
+      "largeImage": "#contact",
+      "smallImage": "img/portfolio/piano.jpg"
     }
   ],
   "Services": [
@@ -90,7 +90,7 @@
     {
       "icon": "fa fa-brands fa-react",
       "name": "React/Redux",
-      "text": "Diverse BOM and state management implimentation experience."
+      "text": "Diverse DOM and state management implimentation experience."
     },
     {
       "icon": "fa fa-solid fa-fingerprint",
@@ -100,19 +100,19 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/testimonials/04.jpg",
+      "text": "Among our bootcamp classmates, Bobby was a standout. His grasp of the material was unparalleled, and despite the extreme workload he was always ready to assist others, consistantly providing clear and comprehensive explanations when his peers needed them.",
+      "name": "Emily Johnson (Fellow Engineer)"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/06.jpg",
+      "text": "Bobby's contributions to our community engagement efforts were always exceptional, when he was available to work an event the entire team felt the difference. The training materials he created are a testament to his dedication and expertise, and they remain integral to our operations.",
+      "name": "Sarah Miller (Former Supervisor)"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "Bobby is a trusted and upstanding member of our local community. Not only has he been a coach to myself, my wife, and our three daughters throughout our Jiu Jitsu journeys, he has also house-sat and animal-sat for us. His dedication and reliability are unmatched.",
+      "name": "Michael Brown (Former student)"
     }
   ],
   "Team": [
