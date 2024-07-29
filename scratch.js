@@ -1,11 +1,6 @@
 /**
 
-well this is actually coming along pretty good
+so at this point i am merging back into main, all dev done
 
-
-this is fucking siccccckkkk mice unnecessary
-
-ok, start of monday
-start of tuesday
 
 */
