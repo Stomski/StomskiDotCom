@@ -1,17 +1,15 @@
 ---
 deployment:
   tasks:
-    - echo "Starting deployment process..., stomski 2024 10 07"
+    - echo "Starting deployment process..."
 
     # Set the deployment path
-    - export DEPLOYPATH=/home/example/public_html/
+    - export DEPLOYPATH=/home/mbxsybcv2dxh/public_html/
     - echo "Deployment path set to $DEPLOYPATH"
 
-    - echo "so this is after the deploy path var set"
-
-    # Deploy individual files
-    - echo "Copying index.html to deployment path..."
-    - /bin/cp index.html $DEPLOYPATH
-    - echo "index.html has been copied."
+    # Deploy build directory contents
+    - echo "Copying contents of build directory to deployment path..."
+    - /bin/cp -R build/* $DEPLOYPATH
+    - echo "Contents of build directory have been copied."
 
     - echo "Deployment process completed successfully."
