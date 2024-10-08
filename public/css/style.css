@@ -253,6 +253,10 @@ a:focus,
   margin: 0 auto;
   margin-bottom: 60px;
 }
+
+.intro a {
+  margin: 6px;
+}
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
