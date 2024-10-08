@@ -1,6 +1,17 @@
 ---
 deployment:
   tasks:
-    - echo "Starting deployment test"
-    - echo "This is a test message to verify the script is running."
-    - echo "Deployment test completed."
+    - echo "Starting deployment process..., stomski 2024 10 07"
+
+    # Set the deployment path
+    - export DEPLOYPATH=/home/example/public_html/
+    - echo "Deployment path set to $DEPLOYPATH"
+
+    - echo "so this is after the deploy path var set"
+
+    # Deploy individual files
+    - echo "Copying index.html to deployment path..."
+    - /bin/cp index.html $DEPLOYPATH
+    - echo "index.html has been copied."
+
+    - echo "Deployment process completed successfully."
