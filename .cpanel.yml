@@ -1,16 +1,6 @@
 ---
 deployment:
   tasks:
-    - echo "Setting deployment path"
-    - export DEPLOYPATH=/home/example/public_html/
-
-    - echo "Installing npm packages"
-    - npm install --prefix stomskidotcomofficial || { echo "npm install failed"; exit 1; }
-
-    - echo "Building the project"
-    - npm run build --prefix stomskidotcomofficial || { echo "Build failed"; exit 1; }
-
-    - echo "Copying build files to deployment path"
-    - /bin/cp -R stomskidotcomofficial/build/* $DEPLOYPATH || { echo "Copying files failed"; exit 1; }
-
-    - echo "Deployment completed successfully"
+    - echo "Starting deployment test"
+    - echo "This is a test message to verify the script is running."
+    - echo "Deployment test completed."
