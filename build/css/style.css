@@ -359,7 +359,7 @@ header .intro-text {
     background: linear-gradient(
       to right,
       rgba(149, 183, 255, 0.931) 0%,
-      #f6f6f6 10%
+      #f6f6f6 5%
     );
   }
 }
