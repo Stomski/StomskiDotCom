@@ -324,7 +324,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #6372ff 0%, rgb(92, 169, 251) 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -695,4 +695,11 @@ label {
 #other-projects-title {
   margin-top: 70px;
   font-size: 25px;
+}
+#about {
+  background: linear-gradient(
+    to right,
+    rgba(149, 183, 255, 0.931) 0%,
+    #f6f6f6 50%
+  );
 }

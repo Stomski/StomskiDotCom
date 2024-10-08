@@ -4,13 +4,7 @@ export const Services = (props) => {
   return (
     <div id="services" className="text-center">
       <div className="container">
-        <div className="section-title">
-          <h2>Tech Stack</h2>
-          <p>
-            Always looking to expand my capabilities! See the project gallery
-            for implimentations of these technologies.
-          </p>
-        </div>
+        <div className="section-title"></div>
         <div id="tech-stack-cards-div" className="tech-stack-cards-div row">
           {props.data
             ? props.data.map((d, i) => (

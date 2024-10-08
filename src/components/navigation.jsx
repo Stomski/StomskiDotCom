@@ -40,15 +40,6 @@ export const Navigation = (props) => {
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a
-                href="#about"
-                className="page-scroll"
-                onClick={handleNavItemClick}
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a
                 href="#services"
                 className="page-scroll"
                 onClick={handleNavItemClick}
@@ -63,6 +54,15 @@ export const Navigation = (props) => {
                 onClick={handleNavItemClick}
               >
                 Project Gallery
+              </a>
+            </li>
+            <li>
+              <a
+                href="#about"
+                className="page-scroll"
+                onClick={handleNavItemClick}
+              >
+                About
               </a>
             </li>
             <li>
